@@ -1,3 +1,15 @@
+
+
+# App Specification
+
+* Models
+
+  * Stock
+
+* Database Tables
+  
+  * stocks : Id, ticker, name, last_price
+
 # Important Notes
 
 * Adding Devise for authentication
@@ -27,3 +39,7 @@
     <%= link_to "logout", destroy_user_session_path, method: :delete %>
     
     Add gem 'twitter-bootstrap-rails' in your gemfile and bundle install --without production
+    
+* 'rails g model Stock tcker:string name:string last_price:decimal' to generate stock model.
+* 'StockQuote::Stock.quote('GOOG').close' to checkout the closing price of stocks.
+* 
