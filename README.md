@@ -9,6 +9,7 @@
 * Database Tables
   
   * stocks : Id, ticker, name, last_price
+  * user_stocks : user_id, stocks_id -> This is a many_to_many association.
 
 # Important Notes
 
@@ -42,4 +43,5 @@
     
 * 'rails g model Stock tcker:string name:string last_price:decimal' to generate stock model.
 * 'StockQuote::Stock.quote('GOOG').close' to checkout the closing price of stocks.
+* ' rails generate model UserStock user:references stock:references' to generate userStock model.
 * 
