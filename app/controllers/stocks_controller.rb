@@ -1,9 +1,19 @@
 class StocksController < ApplicationController
   
   def search
-    @stock = Stock.new_from_lookup(params[:stock])
-    #render json: @stock #json response of a stock
-    render 'users/my_portfolio'
+    if params[:stock].present?
+      @stock = Stock.new_from_lookup(params[:stock])
+      if @stock
+        #render json: @stock #json response of a stock
+        render partial: 'users/result'
+      else
+        flash[:danger] = "You have entered a wrong ticker"
+        redirect_to my_portfolio_path
+      end
+    else
+      flash[:danger] = "You have not entered anything"
+      redirect_to my_portfolio_path
+    end
   end
   
 end
