@@ -6,6 +6,7 @@ gem 'rails', '4.2.5'
 gem 'devise'
 gem 'twitter-bootstrap-rails' 
 gem 'stock_quote'
+gem 'devise-bootstrap-views' 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
