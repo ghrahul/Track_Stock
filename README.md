@@ -59,4 +59,3 @@
 * 'StockQuote::Stock.quote('GOOG').close' to checkout the closing price of stocks.
 * ' rails generate model UserStock user:references stock:references' to generate userStock model.
 * ' rails generate controller UserStocks' to generate controller.
-* 
