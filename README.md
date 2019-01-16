@@ -1,7 +1,17 @@
 ## [Demo](https://youtu.be/IkusfHjZD5Y)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkusfHjZD5Y" frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# What has been used?
+
+  * Rails 4.2.5
+  * ruby 2.3.4p301 
+  * Cloud9 ide
+
+# How to set up?
+
+  * clone the project in a rails workspace in Cloud9
+  * run "rake db:migrate"
+  * Then to run the server type "rails s -b $IP -p $PORT"
+  
 
 # App Specification
 
