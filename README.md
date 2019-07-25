@@ -1,6 +1,7 @@
-## [Using Rails 5](https://github.com/ghrahul/Track-Stock-rails-5)
+## [Using Rails 5 Repository Link](https://github.com/ghrahul/Track-Stock-rails-5)
 
-## [Demo](https://youtu.be/IkusfHjZD5Y)
+## [Demo Video](https://youtu.be/IkusfHjZD5Y)
+## [Live Demo](https://morning-woodland-71047.herokuapp.com/)
 
 # What has been used?
 
